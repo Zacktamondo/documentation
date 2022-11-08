@@ -15,7 +15,7 @@ tags:
 
     In this chapter, the format `user_github/plugin_name` will be used to identify the plugin. This is to avoid possible errors with similarly named plugins and to introduce the format that is used for plugin entry by both NvChad, and the `custom` configuration.
 
-NvChad keeps the configuration of its plugins in the file `lua/plugins/init.lua`. We can see see an excerpt below:
+NvChad keeps the configuration of its plugins in the file `lua/plugins/init.lua`. We can see an excerpt below:
 
 ```lua
 vim.cmd "packadd packer.nvim"
